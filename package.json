@@ -1,0 +1,33 @@
+{
+  "name": "@groceristar/static-data",
+  "version": "1.0.0",
+  "description": "Recipe related static data, like ingredients, recipes, diets, allergies, etc.",
+  "main": "index.js",
+  "engines": {
+    "node": ">9.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GroceriStar/static-data.git"
+  },
+  "keywords": [
+    "recipes",
+    "ingredients",
+    "allergies",
+    "arrays"
+  ],
+  "author": "Tkachenko Arthur <arthur.tkachenko.netweight@gmail.com> (https://github.com/GroceriStar)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/GroceriStar/static-data/issues"
+  },
+  "homepage": "https://github.com/GroceriStar/static-data#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jest": "^23.1.0",
+    "mocha": "^5.2.0"
+  }
+}
