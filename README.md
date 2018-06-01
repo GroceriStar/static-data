@@ -1,3 +1,7 @@
+## Recipes static data
+
+!https://travis-ci.org/GroceriStar/static-data.svg?branch=master!:https://travis-ci.org/GroceriStar/static-data
+
 ## Synopsis
 
 Recipe related static data, like ingredients, recipes, diets, allergies, etc.
