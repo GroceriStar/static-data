@@ -1,3 +1,5 @@
+include moment.js
+
 var data     = [
   {
     title: "Weekly menu #9",

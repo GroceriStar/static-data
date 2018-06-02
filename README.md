@@ -2,6 +2,12 @@
 
 !https://travis-ci.org/GroceriStar/static-data.svg?branch=master!:https://travis-ci.org/GroceriStar/static-data
 
+
+@todo use different flags for one command in order to call different imports
+https://docs.npmjs.com/cli/run-script
+
+`npm run test -- --arg="search"`
+
 ## Synopsis
 
 Recipe related static data, like ingredients, recipes, diets, allergies, etc.
@@ -44,3 +50,28 @@ Depending on the size of the project, if it is small and simple enough the refer
 ## Contributors
 
 Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+
+
+#### Old
+```
+let table_name = 'Allergy'
+
+
+const get = () => {
+
+    var data     = [
+          {
+
+               "name":"Gluten-Free",
+
+               "type":"allergy",
+
+          }
+     ];
+
+  	return data;
+
+};
+
+module.exports.get   = get;
+```
