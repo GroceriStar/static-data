@@ -69,11 +69,11 @@ Let people know how they can dive into the project, include important links to t
 
 
 Tasks:
-- [ ] Search Form static data https://github.com/GroceriStar/static-data/issues/14
-- [ ] Recipes exports for recipe app  https://github.com/GroceriStar/static-data/issues/11
-- [ ] ChickenKyiv Free Menu Release import data https://github.com/GroceriStar/static-data/issues/10
-- [ ] Groceristar import data https://github.com/GroceriStar/static-data/issues/9
-- [ ] Search API import data https://github.com/GroceriStar/static-data/issues/8
+- [ ] [Search Form static data](https://github.com/GroceriStar/static-data/issues/14)
+- [ ] [Recipes exports for recipe app] (https://github.com/GroceriStar/static-data/issues/11)
+- [ ] [ChickenKyiv Free Menu Release import data] (https://github.com/GroceriStar/static-data/issues/10)
+- [ ] [Groceristar import data](https://github.com/GroceriStar/static-data/issues/9)
+- [ ] [Search API import data](https://github.com/GroceriStar/static-data/issues/8)
 
 
 
