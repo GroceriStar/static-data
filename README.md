@@ -49,19 +49,17 @@ Provide code examples and explanations of how to get the project.
 ```
 var data = require('@groceristar/static-data');
 console.log(data);
-```
 
-```
 import data from '@groceristar/static-data'
 ```
 
-## API Reference
+#### API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README.md. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
-## Tests
+#### Tests
 
-`npm test`
+```npm test```
 
 
 ## Contributors
@@ -70,8 +68,19 @@ Let people know how they can dive into the project, include important links to t
 
 
 
+Tasks:
+- [ ] Search Form static data https://github.com/GroceriStar/static-data/issues/14
+- [ ] Recipes exports for recipe app  https://github.com/GroceriStar/static-data/issues/11
+- [ ] ChickenKyiv Free Menu Release import data https://github.com/GroceriStar/static-data/issues/10
+- [ ] Groceristar import data https://github.com/GroceriStar/static-data/issues/9
+- [ ] Search API import data https://github.com/GroceriStar/static-data/issues/8
+
+
+
 
 #### Old
+
+
 
 ```
 let table_name = 'Allergy'

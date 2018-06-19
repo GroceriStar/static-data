@@ -1,4 +1,4 @@
-var holidays = [
+let holidays = [
   "Christmas",
   "Thanksgiving",
   "Summer",

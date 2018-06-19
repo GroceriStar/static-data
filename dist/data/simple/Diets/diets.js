@@ -1,4 +1,4 @@
-var diets = [
+let diets = [
   "Lacto vegetarian",
   "Ovo vegetarian",
   "Pescetarian",
