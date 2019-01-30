@@ -1,29 +1,11 @@
-const path    = require('path');
-const _       = require('underscore');
-
-let Allergy    = require(path.resolve(__dirname, 'allergy'));
-let Course     = require(path.resolve(__dirname, 'courses'));
-let Cuisine    = require(path.resolve(__dirname, 'cuisines'));
-let Diet       = require(path.resolve(__dirname, 'diets'));
-let Holiday    = require(path.resolve(__dirname, 'holidays'));
-
-// let Nutritions = require(path.resolve(__dirname, 'nutritions'));
-
-let table_name = 'Attribute'
-
-const get = () => {
-
-  	return
-  	_.union(
-		Allergy.get(),
-		Course.get(),
-		Cuisine.get(),
-		Diet.get(),
-		Holiday.get(),
-		// Nutritions.get()
-	);
-};
-
-
-module.exports.get        = get;
-module.exports.table_name = table_name;
+// will plan to combine all search data into one places
+// course : An array of the cources associated with this recipe.
+// cuisine : An array of the cuisines associated with this recipe.
+// holiday : An array of the holidays associated with this recipe.
+// flavors : The flavor scores for this recipe.
+// salty : Saltiness on a range of 0 to 1.
+// sour : Sourness on a range of 0 to 1.
+// sweet : Sweetness on a range of 0 to 1.
+// bitter : Bitterness on a range of 0 to 1.
+// meaty : Savoryness on a range of 0 to 1.
+// piquant : Spiciness on a range of 0 to 1.
